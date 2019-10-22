@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to converter’s documentation! &#8212; converter  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-converter-s-documentation">
+<h1>Welcome to converter’s documentation!<a class="headerlink" href="#welcome-to-converter-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-GUI.MyController"></span><dl class="class">
+<dt id="GUI.MyController.MyController">
+<em class="property">class </em><code class="sig-prename descclassname">GUI.MyController.</code><code class="sig-name descname">MyController</code><span class="sig-paren">(</span><em class="sig-param">parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyController.MyController" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtWidgets.QMainWindow</span></code></p>
+<dl class="method">
+<dt id="GUI.MyController.MyController.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyController.MyController.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>mittels MyForm greife auf meine Buttons zu.
+PushButton_3: Buttonname, Wenn ich aufs Button geklickt habe, erstelle ich eine Verbindung zur Methode .
+:param parent:</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="GUI.MyController.MyController.__module__">
+<code class="sig-name descname">__module__</code><em class="property"> = 'GUI.MyController'</em><a class="headerlink" href="#GUI.MyController.MyController.__module__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="GUI.MyController.MyController.clear">
+<code class="sig-name descname">clear</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyController.MyController.clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Die Methode clear() greift auf die zwei lineEdits zu und setzt die beiden auf 0, wenn ich das Button tätige.
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="GUI.MyController.MyController.getCur">
+<code class="sig-name descname">getCur</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyController.MyController.getCur" title="Permalink to this definition">¶</a></dt>
+<dd><p>Die Methode getCur greift auf die zwei lineEdits und doubleSpinBox zu
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-GUI.MyModel"></span><dl class="class">
+<dt id="GUI.MyModel.MyModel">
+<em class="property">class </em><code class="sig-prename descclassname">GUI.MyModel.</code><code class="sig-name descname">MyModel</code><a class="headerlink" href="#GUI.MyModel.MyModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="GUI.MyModel.MyModel.__dict__">
+<code class="sig-name descname">__dict__</code><em class="property"> = mappingproxy({'__module__': 'GUI.MyModel', 'get_cur': &lt;function MyModel.get_cur&gt;, 'get_cur_offline': &lt;function MyModel.get_cur_offline&gt;, '__dict__': &lt;attribute '__dict__' of 'MyModel' objects&gt;, '__weakref__': &lt;attribute '__weakref__' of 'MyModel' objects&gt;, '__doc__': None})</em><a class="headerlink" href="#GUI.MyModel.MyModel.__dict__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="GUI.MyModel.MyModel.__module__">
+<code class="sig-name descname">__module__</code><em class="property"> = 'GUI.MyModel'</em><a class="headerlink" href="#GUI.MyModel.MyModel.__module__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="GUI.MyModel.MyModel.__weakref__">
+<code class="sig-name descname">__weakref__</code><a class="headerlink" href="#GUI.MyModel.MyModel.__weakref__" title="Permalink to this definition">¶</a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="GUI.MyModel.MyModel.get_cur">
+<code class="sig-name descname">get_cur</code><span class="sig-paren">(</span><em class="sig-param">from_c</em>, <em class="sig-param">to_c</em>, <em class="sig-param">input</em><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyModel.MyModel.get_cur" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sie werden aufgefordert, eine Ziel und Ausgangwährung einzugeben, und wenn sie diese Bedingungen nicht erfüllen,
+werden Fehlermeldungen ausgegeben
+:param from_c: Ausgangswährung
+:param to_c: Zielwährung
+:param input:
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="GUI.MyModel.MyModel.get_cur_offline">
+<code class="sig-name descname">get_cur_offline</code><span class="sig-paren">(</span><em class="sig-param">from_c</em>, <em class="sig-param">to_c</em>, <em class="sig-param">input</em><span class="sig-paren">)</span><a class="headerlink" href="#GUI.MyModel.MyModel.get_cur_offline" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">converter</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, ogu.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
